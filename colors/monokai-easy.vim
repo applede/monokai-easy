@@ -8,7 +8,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "MonokaiEasy"
+let g:colors_name = "Monokai-Easy"
 
 hi Cursor ctermfg=235 ctermbg=231 cterm=NONE guifg=#272822 guibg=#f8f8f0 gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
@@ -105,3 +105,4 @@ hi cssClassName ctermfg=106 ctermbg=NONE cterm=NONE guifg=#80b028 guibg=NONE gui
 hi cssValueLength ctermfg=141 ctermbg=NONE cterm=NONE guifg=#a077ef guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4ba6cb guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi SpecialComment ctermfg=95 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
