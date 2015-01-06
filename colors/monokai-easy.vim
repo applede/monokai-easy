@@ -106,3 +106,5 @@ hi cssValueLength ctermfg=141 ctermbg=NONE cterm=NONE guifg=#a077ef guibg=NONE g
 hi cssCommonAttr ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4ba6cb guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi SpecialComment ctermfg=95 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
+hi TagListFileName ctermfg=179 ctermbg=NONE cterm=NONE guifg=#c9c26b guibg=NONE gui=NONE
+hi TagListTitle ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4ba6cb guibg=NONE gui=NONE
