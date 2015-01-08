@@ -106,8 +106,12 @@ hi cssValueLength ctermfg=141 ctermbg=NONE cterm=NONE guifg=#a077ef guibg=NONE g
 hi cssCommonAttr ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4ba6cb guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
-hi SpecialComment ctermfg=95 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=NONE
-hi TagListFileName ctermfg=179 ctermbg=NONE cterm=NONE guifg=#c9c26b guibg=NONE gui=NONE
-hi TagListTitle ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4ba6cb guibg=NONE gui=NONE
-hi rustAttribute ctermfg=95 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=italic
-hi rustModPath ctermfg=249 ctermbg=235 cterm=NONE guifg=#b1b0af guibg=#272822 gui=NONE
+hi! link rustAttribute Comment
+hi! link rustDerive Comment
+hi! link rustModPath Normal
+hi! link rustMacroRepeatDelimiters String
+hi! link rustMacroVariable Identifier
+
+hi! link SpecialComment Comment
+hi! link TagListFileName Label
+hi! link TagListTitle Tag
