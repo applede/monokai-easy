@@ -111,6 +111,7 @@ hi! link rustDerive Comment
 hi! link rustModPath Normal
 hi! link rustMacroRepeatDelimiters String
 hi! link rustMacroVariable Identifier
+hi rustType ctermfg=166 ctermbg=NONE cterm=NONE guifg=#b92672 guibg=NONE gui=NONE
 
 hi! link SpecialComment Comment
 hi! link TagListFileName Label
