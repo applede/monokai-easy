@@ -42,11 +42,11 @@ hi ErrorMsg ctermfg=231 ctermbg=166 cterm=NONE guifg=#f8f8f0 guibg=#da540e gui=N
 hi WarningMsg ctermfg=231 ctermbg=166 cterm=NONE guifg=#f8f8f0 guibg=#da540e gui=NONE
 hi Float ctermfg=141 ctermbg=NONE cterm=NONE guifg=#a077ef guibg=NONE gui=NONE
 hi Function ctermfg=106 ctermbg=NONE cterm=NONE guifg=#80b028 guibg=NONE gui=NONE
-hi Identifier ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4ba6cb guibg=NONE gui=italic
+hi Identifier ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4BA6CB guibg=NONE gui=italic
 hi Keyword ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d07e22 guibg=NONE gui=NONE
 hi Label ctermfg=179 ctermbg=NONE cterm=NONE guifg=#c9c26b guibg=NONE gui=NONE
 hi NonText ctermfg=59 ctermbg=16 cterm=NONE guifg=#49483e guibg=#2e2f29 gui=NONE
-hi Number ctermfg=141 ctermbg=NONE cterm=NONE guifg=#a077ef guibg=NONE gui=NONE
+hi Number ctermfg=141 ctermbg=NONE cterm=NONE guifg=#A077EF guibg=NONE gui=NONE
 hi Operator ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d07e22 guibg=NONE gui=NONE
 hi PreProc ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d07e22 guibg=NONE gui=NONE
 hi Special ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b1b0af guibg=NONE gui=NONE
@@ -111,7 +111,7 @@ hi! link rustDerive Comment
 hi! link rustModPath Normal
 hi! link rustMacroRepeatDelimiters String
 hi! link rustMacroVariable Identifier
-hi rustType ctermfg=166 ctermbg=NONE cterm=NONE guifg=#C54FA1 guibg=NONE gui=NONE
+hi rustType ctermfg=166 ctermbg=NONE cterm=NONE guifg=#CA5BBE guibg=NONE gui=NONE
 
 hi! link SpecialComment Comment
 hi! link TagListFileName Label
