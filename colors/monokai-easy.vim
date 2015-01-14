@@ -10,8 +10,8 @@ endif
 
 let g:colors_name = "Monokai-Easy"
 
-hi Cursor ctermfg=235 ctermbg=231 cterm=NONE guifg=#272822 guibg=#f8f8f0 gui=NONE
-hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483e gui=NONE
+hi Cursor ctermfg=235 ctermbg=231 cterm=NONE guifg=#272822 guibg=#F8F8F0 gui=NONE
+hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#49483E gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#353630 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#353630 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#353630 gui=NONE
@@ -27,13 +27,13 @@ hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=un
 hi Directory ctermfg=141 ctermbg=NONE cterm=NONE guifg=#a177ef guibg=NONE gui=NONE
 hi Folded ctermfg=95 ctermbg=235 cterm=NONE guifg=#75715e guibg=#272822 gui=NONE
 
-hi Normal ctermfg=249 ctermbg=235 cterm=NONE guifg=#b1b0af guibg=#272822 gui=NONE
+hi Normal ctermfg=249 ctermbg=235 cterm=NONE guifg=#B1B0AF guibg=#272822 gui=NONE
 hi Boolean ctermfg=141 ctermbg=NONE cterm=NONE guifg=#a077ef guibg=NONE gui=NONE
-hi Character ctermfg=141 ctermbg=NONE cterm=NONE guifg=#a177ef guibg=NONE gui=NONE
-hi Comment ctermfg=95 ctermbg=NONE cterm=NONE guifg=#75715e guibg=NONE gui=italic
+hi Character ctermfg=141 ctermbg=NONE cterm=NONE guifg=#A177EF guibg=NONE gui=NONE
+hi Comment ctermfg=95 ctermbg=NONE cterm=NONE guifg=#75715E guibg=NONE gui=italic
 hi Conditional ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d07e22 guibg=NONE gui=NONE
 hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Define ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d07e22 guibg=NONE gui=NONE
+hi Define ctermfg=172 ctermbg=NONE cterm=NONE guifg=#D07E22 guibg=NONE gui=NONE
 hi DiffAdd ctermfg=249 ctermbg=64 cterm=bold guifg=#b1b0af guibg=#46830c gui=bold
 hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8b0807 guibg=NONE gui=NONE
 hi DiffChange ctermfg=249 ctermbg=23 cterm=NONE guifg=#b1b0af guibg=#243955 gui=NONE
@@ -41,19 +41,19 @@ hi DiffText ctermfg=249 ctermbg=24 cterm=bold guifg=#b1b0af guibg=#204a87 gui=bo
 hi ErrorMsg ctermfg=231 ctermbg=166 cterm=NONE guifg=#f8f8f0 guibg=#da540e gui=NONE
 hi WarningMsg ctermfg=231 ctermbg=166 cterm=NONE guifg=#f8f8f0 guibg=#da540e gui=NONE
 hi Float ctermfg=141 ctermbg=NONE cterm=NONE guifg=#a077ef guibg=NONE gui=NONE
-hi Function ctermfg=106 ctermbg=NONE cterm=NONE guifg=#80b028 guibg=NONE gui=NONE
+hi Function ctermfg=106 ctermbg=NONE cterm=NONE guifg=#80B028 guibg=NONE gui=NONE
 hi Identifier ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4BA6CB guibg=NONE gui=italic
-hi Keyword ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d07e22 guibg=NONE gui=NONE
+hi Keyword ctermfg=172 ctermbg=NONE cterm=NONE guifg=#D07E22 guibg=NONE gui=NONE
 hi Label ctermfg=179 ctermbg=NONE cterm=NONE guifg=#c9c26b guibg=NONE gui=NONE
 hi NonText ctermfg=59 ctermbg=16 cterm=NONE guifg=#49483e guibg=#2e2f29 gui=NONE
 hi Number ctermfg=141 ctermbg=NONE cterm=NONE guifg=#A077EF guibg=NONE gui=NONE
 hi Operator ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d07e22 guibg=NONE gui=NONE
-hi PreProc ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d07e22 guibg=NONE gui=NONE
+hi PreProc ctermfg=172 ctermbg=NONE cterm=NONE guifg=#D07E22 guibg=NONE gui=NONE
 hi Special ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b1b0af guibg=NONE gui=NONE
 hi SpecialKey ctermfg=59 ctermbg=236 cterm=NONE guifg=#49483e guibg=#353630 gui=NONE
 hi Statement ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d07e22 guibg=NONE gui=NONE
 hi StorageClass ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4ba6cb guibg=NONE gui=italic
-hi String ctermfg=179 ctermbg=NONE cterm=NONE guifg=#c9c26b guibg=NONE gui=NONE
+hi String ctermfg=179 ctermbg=NONE cterm=NONE guifg=#C9C26B guibg=NONE gui=NONE
 hi Tag ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4ba6cb guibg=NONE gui=NONE
 hi Title ctermfg=249 ctermbg=NONE cterm=bold guifg=#b1b0af guibg=NONE gui=bold
 hi Todo ctermfg=95 ctermbg=NONE cterm=inverse,bold guifg=#75715e guibg=NONE gui=inverse,bold
@@ -97,7 +97,7 @@ hi yamlKey ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4ba6cb guibg=NONE gui=NONE
 hi yamlAnchor ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlAlias ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlDocumentHeader ctermfg=179 ctermbg=NONE cterm=NONE guifg=#c9c26b guibg=NONE gui=NONE
-hi cssURL ctermfg=172 ctermbg=NONE cterm=NONE guifg=#d07e22 guibg=NONE gui=italic
+hi cssURL ctermfg=172 ctermbg=NONE cterm=NONE guifg=#D07E22 guibg=NONE gui=italic
 hi cssFunctionName ctermfg=74 ctermbg=NONE cterm=NONE guifg=#4ba6cb guibg=NONE gui=NONE
 hi cssColor ctermfg=141 ctermbg=NONE cterm=NONE guifg=#a177ef guibg=NONE gui=NONE
 hi cssPseudoClassId ctermfg=106 ctermbg=NONE cterm=NONE guifg=#80b028 guibg=NONE gui=NONE
